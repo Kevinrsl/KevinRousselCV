@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+@font-face {
+  font-family: "font-1";
+  src: url(./assets/FjallaOne-Regular.ttf);
+}
+
+body {
+  font-family: "font-1", serif;
+  background: url(./assets/nuit.jpg) no-repeat fixed center/cover;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+  color: rgb(147, 134, 221);
+  text-shadow: 5px 3px 0 #000000;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Titre,
+.Tableau,
+.Cursus,
+.Compétences,
+.Loisirs {
+  background: rgb(255, 255, 255, 0.65);
+  width: 90%;
+  min-height: 200px;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 12px 5px rgba(0, 0, 0, 0.25);
+}
+
+.Photo,
+.Volley {
+  text-align: center;
+}
+
+.Tableau,
+.texte1,
+.texte2 {
+  text-align: center;
+}
